@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*HOME*/
+.home_grid {
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+.div1 {
+    background-color: #151515;
+    grid-column-start: 1;
+}
+.div2 {
+    background-image: url(../images/dessin.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    grid-column-start: 2;
+}
+.div3 {
+    grid-column-start: 3;
+}
+
+/*HOME-->Content*/
+.home_content {
+    width: 70%;
+    height: 35vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    top: 200px;
+    right: 300px;
+}
+.text1 {
+    grid-column-start: 1;
+    font-size: 3.5rem;
+    color: #fff;
+}
+.text2 {
+    grid-column-start: 2;
+}
+.text2 p {
+    float: right;
+    font-size: 1.9rem;
+}
+.home_btn {
+    background-color: #151515;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    position: absolute;
+    top: 48%;
+    right: 455px;
+}
+
+
+
