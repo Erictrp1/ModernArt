@@ -30,11 +30,23 @@
 
 /*HOME-->Content*/
 
-.text1 {
+.bloc1{
     position: absolute;
-    top: 20%;
-    left: 10.5%;
+    top: 17%;
+    left: 260px;
     font-size: 4rem;
+    font-family: 'DM Serif Display', serif;
+}
+.bloc1 h1 span{
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(-30px);
+}
+.bloc1 h1 > span:nth-child(1){
+    animation: apparition 0.8s 0.3s ease-out forwards;
+}
+.bloc1 h1 > span:nth-child(2){
+    animation: apparition 0.8s 0.6s ease-out forwards;
 }
 .sp {
     position: absolute;
@@ -43,16 +55,23 @@
     mix-blend-mode: difference;
 }
 
-.text2 {
+.bloc2 {
     position: absolute;
     top: 20%;
     right: 10.5%;
-    font-size: 2rem;
+    font-size: 23px;
     z-index: 10;
     color: #151515;
+    font-family: 'Cinzel', serif;
 }
-
-
+.bloc2 p {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(-30px);
+}
+.bloc2 > p {
+    animation: apparition 0.8s 0.8s ease-out forwards;
+}
 
 .home_btn {
     background-color: #151515;
@@ -65,8 +84,13 @@
     font-size: 25px;
     position: absolute;
     top: 48%;
-    right: 21.5%;
+    right: 22%;
     z-index: 20;
+
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: apparition 0.8s 0.9s ease-out forwards;
 }
 
 @keyframes apparition {
