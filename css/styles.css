@@ -89,7 +89,7 @@
 
     display: inline-block;
     opacity: 0;
-    transform: translateY(-30px);
+    transform: translateX(50px);
     animation: apparition 0.8s 0.9s ease-out forwards;
 }
 
