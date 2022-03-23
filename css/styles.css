@@ -13,6 +13,7 @@
 .div1 {
     background-color: #151515;
     grid-column-start: 1;
+    z-index: 1;
 }
 .div2 {
     background-image: url(../images/dessin.jpg);
@@ -21,33 +22,43 @@
     background-attachment: fixed;
     background-size: cover;
     grid-column-start: 2;
+    z-index: 2;
 }
 .div3 {
     grid-column-start: 3;
 }
 
 /*HOME-->Content*/
-.home_content {
-    width: 70%;
-    height: 35vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    position: absolute;
-    top: 200px;
-    right: 300px;
-}
+
 .text1 {
-    grid-column-start: 1;
-    font-size: 3.5rem;
-    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 10.5%;
+    font-size: 4rem;
 }
+.sp {
+    position: absolute;
+    color: white;
+    z-index: 4;
+    mix-blend-mode: difference;
+}
+
 .text2 {
-    grid-column-start: 2;
+    position: absolute;
+    top: 20%;
+    right: 10.5%;
+    font-size: 2rem;
+    z-index: 10;
+    color: #151515;
 }
-.text2 p {
-    float: right;
-    font-size: 1.9rem;
+p {
+    position: absolute;
+    color: white;
+    z-index: 4;
+    mix-blend-mode: difference;
 }
+
+
 .home_btn {
     background-color: #151515;
     border: none;
@@ -56,11 +67,17 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 30px;
+    font-size: 25px;
     position: absolute;
     top: 48%;
-    right: 455px;
+    right: 21.5%;
+    z-index: 20;
 }
 
-
+@keyframes apparition {
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
 
