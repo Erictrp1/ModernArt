@@ -51,12 +51,7 @@
     z-index: 10;
     color: #151515;
 }
-p {
-    position: absolute;
-    color: white;
-    z-index: 4;
-    mix-blend-mode: difference;
-}
+
 
 
 .home_btn {
