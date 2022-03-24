@@ -106,7 +106,7 @@ body {
 .line {
     width: 1px;
     margin: calc(2vw + 10px) auto;
-    background: #151515;
+    background: #fff;
     height: clamp(125px, 10vw, 250px);
 }
 
