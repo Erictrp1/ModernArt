@@ -3,6 +3,9 @@
     margin: 0;
 }
 
+body {
+    background-color: #151515;
+}
 
 /*HOME*/
 .home_grid {
@@ -62,11 +65,11 @@
     right: 10.5%;
     font-size: 23px;
     z-index: 10;
-    color: #151515;
     font-family: 'Cinzel', serif;
+    mix-blend-mode: difference;
 }
 .bloc2 p {
-    display: inline-block;
+    color: #fff;
     opacity: 0;
     transform: translateY(-30px);
 }
@@ -75,9 +78,9 @@
 }
 
 .home_btn {
-    background-color: #151515;
+    background-color: #fff;
     border: none;
-    color: white;
+    color: #151515;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
