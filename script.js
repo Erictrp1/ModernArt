@@ -1,9 +1,9 @@
 const images = document.querySelectorAll
-("#Gallery img")
+(".imgcontainer img")
 
 
 let options = {
-    rootMargin: "-100px 0px",
+    rootMargin: "-15% 0px",
     threshold: 0
 }
 

@@ -111,7 +111,9 @@ body {
 }
 
 /*GALERY*/
-#Gallery {
+
+
+.imgcontainer {
     display: grid;
     max-width: 1200px;
     margin: 0 auto;
@@ -120,10 +122,11 @@ body {
 }
 
 /*media queries height 100%->Responsive*/
-#Gallery img {
+.imgcontainer img {
     width: 100%;
     height: 750px;
     object-fit: cover;
     transition: opacity 0.2s ease-in-out;
+    opacity: 0;
 }
 
