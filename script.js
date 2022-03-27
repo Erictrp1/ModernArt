@@ -1,5 +1,5 @@
 const images = document.querySelectorAll
-(".imgcontainer img")
+("#Gallery img")
 
 
 let options = {

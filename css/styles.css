@@ -10,7 +10,7 @@ body {
 /*HOME*/
 .home_grid {
     width: 100%;
-    height: 90vh;
+    height: 95vh;
     display: grid;
     grid-template-columns: 30% 40% 30%;
 }
@@ -79,22 +79,32 @@ body {
 
 .home_btn {
     background-color: #fff;
-    border: none;
     color: #151515;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 25px;
+    font-size: 22px;
     position: absolute;
     top: 48%;
     right: 22%;
     z-index: 20;
-    display: inline-block;
     opacity: 0;
-    transform: translateX(50px);
     animation: apparition 0.8s 0.9s ease-out forwards;
+    cursor: pointer;
+    transition: ease-out 0.8s;
+    outline: none;
+    border: #151515 solid 2px;
+    font-family: 'Cinzel', serif;
+    font-weight:700;
 }
+.home_btn:hover {
+    box-shadow: inset 300px 0 0 0 rgb(24, 24, 24);
+    cursor: pointer;
+    background: #151515;
+    color: white;
+    border: white solid 2px;
+}
+
 
 @keyframes apparition {
     100%{
@@ -113,7 +123,7 @@ body {
 /*GALERY*/
 
 
-.imgcontainer {
+#Gallery {
     display: grid;
     max-width: 1200px;
     margin: 0 auto;
@@ -122,7 +132,7 @@ body {
 }
 
 /*media queries height 100%->Responsive*/
-.imgcontainer img {
+#Gallery img {
     width: 100%;
     height: 750px;
     object-fit: cover;
