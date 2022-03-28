@@ -32,12 +32,14 @@ body {
     grid-column-start: 3;
 }
 
+
+
 /*HOME-->Content*/
 
 .bloc1{
     position: absolute;
     top: 17.5%;
-    left: 205px;
+    left: 10.7%;
     font-size: 4rem;
     font-family: 'Cinzel', serif;
 }
@@ -113,6 +115,17 @@ body {
     }
 }
 
+@media(max-width: 1500px){
+    .bloc1{
+        font-size: 3rem;
+    }
+    .bloc2{
+        position: absolute;
+        top:40%;
+        left: 10.7%;
+    }
+}
+
 .line {
     width: 1px;
     margin: calc(2vw + 10px) auto;
@@ -140,14 +153,7 @@ body {
     opacity: 0;
 }
 
-@media (max-width: 1219px){
-    #Gallery img {
-        width: 100%;
-        object-fit: cover;
-        transition: opacity 0.2s ease-in-out;
-        opacity: 0;
-    }
-}
+
 
 /*Footer*/
 #Footer {
