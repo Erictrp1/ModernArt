@@ -124,6 +124,22 @@ body {
         top:40%;
         left: 10.7%;
     }
+    .home_btn{
+        position: absolute;
+        top: 60%;
+        left: 10.7%;
+    }
+}
+
+@media(max-width: 555px){
+    .bloc1{
+        font-size: 2rem;
+    }
+    .home_btn{
+        position: absolute;
+        top: 85%;
+        left: 10.7%;
+    }
 }
 
 .line {
